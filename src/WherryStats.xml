@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ********************************************************************* -->
+<!-- Copyright 2016                                                       -->
+<!-- YOUR NAME                                                            -->
+<!--                                                                      -->
+<!-- This file is part of YOUR PROJECT                                    -->
+<!--                                                                      -->
+<!-- *********************************************************************-->
+
+<!-- USE XINCLUDE SWITCH ON XSLTPROC -->
+
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="./bookinfo.xml" />
+    
+    <book xml:id="project">
+        <title>Wherry Stats</title>
+
+        <xi:include href="./frontmatter.xml" />
+        <xi:include href="./data.xml" />
+        <!--  <xi:include href="./reptiles.xml" />  -->
+
+
+   </book>
+
+</mathbook>
