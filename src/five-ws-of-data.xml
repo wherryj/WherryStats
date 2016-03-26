@@ -8,17 +8,102 @@
 <!-- Alex Jordan (editor)          -->
 
 <section xml:id="section-five-ws-of-data">
-    <title>Five W's of Data</title>
+    <title>Understanding Data</title>
 
-    <p>Statistics show up in research papers, articles, and the daily news. They are used in nursing, business, biology, and mathematics. In fact, they are somewhat unavoidable. Phrases like <q>that was unexpected</q> and <q>what are the odds?</q> have become commonplace, while games like Monopoly, Yahtzee, and the Lottery<fn>This seems to exist <em>only</em> because of a gross misunderstanding of statistics</fn> are all based around probability and statistics.</p>
 
-    <p>Together, we will build a basic understanding of Statistics. We will learn about data, probability, survey methods, the <xref provisional="theorem-CLM"/> Central Limit Theorem, confidence intervals, and least-square lines (among other topics). In my opinion, the most important of these goals is making conclusions about a population based on sample data. In order to do this, however, we must first answer the simplest question possible: What is data?</p>
 
     <subsection>
         <title>What are Data?</title>
 
-            <p>Our goal for this unit is to analyze data<fn>The word <q>data</q> is plural and a single piece of data is called <q>datum</q>.</fn> numerically and to display it using various graphs and tables (<eg/> Pie Chart and Frequency Table). Describing data is a bit like describing a painting<ndash/>there's more than one way to look at it. While we will have a certain method for approaching things, feel free to get creative and take risks!</p>
+            <p>Our goal for this section is to analyze data<fn>The word <q>data</q> is plural and a single piece of data is called <q>datum</q>.</fn> numerically and to display it using various graphs and tables (<eg/> Pie Chart and Frequency Table). Describing data is a bit like describing a painting<ndash/>there's more than one way to look at it. While we will have a certain method for approaching things, feel free to get creative and take risks!</p>
 
-    </subsection>
+<p> We will consider three primary types of data in this text. This is hardly an exhaustive list of all types of data, but it gives us a decent start!</p>
+    
+<definition>
+                <statement>
+                    <p><term>Quantitative data</term> describes a trait/feature of a population using only numbers. Quantitative data can be either <term>continuous</term> if the values can be anything inside an interval or continuum (think decimals) or <term>discrete</term> if the values increase in jumps (think whole numbers).</p>
+                </statement>
+                <notation>
+                    <usage>Quantitative data</usage>
+                    <description>A description of a population using numbers</description>
+                </notation>
+            </definition>
+    
+
+ <example xml:id="example-quantitative">
+                    <title>Quantitative Data</title>
+                    <p>We can describe the length of a pencil using centimeters. Since we are using a number to do so, the length would be considered quantitative data. More specifically, since we can have measurements like <quantity><mag>4.75</mag><unit prefix="centi" base="meter"/></quantity>, length here is <em>continuous</em> quantiative data.</p>
+                </example>
+
+
+<definition>
+                <statement>
+                    <p><term>Qualitative data</term> describes a trait/feature of a population using qualities or categories<fn>Qualitative variables are sometimes called categorical variables</fn>.</p>
+                </statement>
+                <notation>
+                    <usage>Qualitative data</usage>
+                    <description>A description of a population using qualities or categories</description>
+                </notation>
+            </definition>
+   
+
+<p>Both quantitative data and qualitative data can be used to describe the same trait of an individual. However, quantitative data describe the trait using number while qualitative data describe the trait using words.
+</p>
+<!-- Need me some pictures to break this up -->
+ <example xml:id="example-qualitative">
+                    <title>Qualititative Data</title>
+                    <p>Suppose we are curious about the flavor distribution of Skittles. To do this, we could record the flavor of each candy in large bag. Since the flavors are categories (e.g. Lime or Orange), this is <alert>qualitative</alert> or <alert>categorical</alert> data.</p>
+                </example>
+<p> No better way to learn than to try!</p>
+
+ <exercise>
+                <statement>
+                    <p>For each of the following, identify whether the given variable is quantitative or qualitative. If the data is quantitative, state whether it is continuous or discrete. Include units where appropriate.</p>
+                    <ol>
+                        <li><p>Favorite color</p></li>
+                        <li><p>Last name</p></li>
+			<li><p>The number of red cars in a parking lot</p></li>
+			<li><p>The distance in miles,  <quantity><unit base="mile"/></quantity>, to your home</p></li>
+			<li><p> The cost of a movie ticket </p></li>
+			<li><p> Social security number </p></li>
+			<li><p> The temperature of a room </p></li>
+                    </ol>
+                </statement>
+               <hint> Which values can you describe using numbers? Which values can you describe using words?
+                </hint>
+ 		<solution>
+                <ol>
+                        <li><p>Qualitative.</p></li>
+                        <li><p>Qualitative.</p></li>
+                        <li><p>Discrete Quantitative.</p></li>
+                        <li><p>Continuous Quantitative.</p></li>
+                        <li><p>Continuous Quantitative. Possible units might be US dollar.</p></li>
+                        <li><p>Tricky one! For the purposes of this text, we will consider this to be Discrete Quantitative data. However, the number is in some sense identifying the individual using a category.<fn>It may not surprise you to learn that the actual name of this type of data is <term>identifier</term> data. A registeration name for a school is another type of identifier data.</fn></p></li>
+                        <li><p>Continuous Quantiative. Possible units might include <quantity><unit base="degreeFahrenheit"/></quantity></p></li>
+                    </ol>
+		</solution>
+<!--What am I doing wrong here? :( -->               
+            </exercise>
+<p>NOTE: Units are important here as it will help us distinguish between the type of data. For example, I can describe temperature as either quantitative data (<eg/> <quantity><mag>98</mag><unit base="degreeFahrenheit"/></quantity>) or as qualitative data (<eg/> <q>warm</q> or <q>cold</q>).</p>
+
+<exercise>
+	<statement>
+		<p> Explain how to measure the variable ``height" using both quantitative or qualitative data.</p>
+	</statement>
+</exercise>
+<definition>
+                <statement>
+                    <p>Our final type of data that we will consider is <term>ordinal data</term>. Much like quantitative data, this data type describes the trait/feature of a population using numbers. However, ordinal data, as the name suggests, also has a built in ordering system.</p>
+                </statement>
+                <notation>
+                    <usage>Ordinal data</usage>
+                    <description>A description of a population using ordered numbers</description>
+                </notation>
+            </definition>
+   
+
+<p>If you have ever rated your pain on a scale of <m>1</m> to <m>5</m> at the doctor's office, then you have used ordinal data before. This may also surprise you, but zip codes are also ordinal data! I'll leave it to you to determine how the numbers are ordered.
+</p>
+</subsection>
 </section>
 

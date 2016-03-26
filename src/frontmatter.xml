@@ -21,35 +21,35 @@
 
         </titlepage>
 
-        <!-- <colophon>
+        <colophon>
 
         <copyright>
-            <year>2012<ndash />2015</year>
+            <year>2012<ndash />2016</year>
             <holder>Portand Community College</holder>
             <minilicense>Creative Commons BY-SA</minilicense>
             <shortlicense><p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
-            <p><image source="../images/by-sa.eps"/></p></shortlicense>
+            <p><image source="../images/by-sa.png"/></p></shortlicense>
             <creativecommons BY="yes" NC="yes" ubiquity="medium"/> 
         </copyright>
 
         <date><today /></date>
 
-	</colophon> -->
+	</colophon>
 
 	<!-- <acknowledgement>
 
-		<p>In 2012, Steve Simonds wrote most of this lab manual as a Word/PDF document with some support from PCC curriculum development grants.</p>
 		<p>In 2015, Alex Jordan converted the lab manual to MathBook XML (enabling the HTML output alongside a PDF) with some support from PCC's professional development grants.</p>
-                <p>Phil Thurber and Scot Leavitt created the cover composition using images provided by NASA, the Bodleian Library of the University of Oxford, and PCC instructor Ken Kidoguchi.</p>
                 <p>Special thanks to Joe Bradford, Pete Haberman, Kandace Kling, Ross Kouzes, and Scot Leavitt for proofreading.</p> 
 
 	</acknowledgement> -->
 
-        <!-- <preface xml:id="to-all">
+        <preface xml:id="to-all">
             <title>To All</title>
-            <p>Calculus I is taught at Portland Community College using a lecture/lab format. The laboratory time is set aside for students to investigate the topics and practice the skills that are covered during their lecture periods. This lab manual serves as a guide for the laboratory component of the course.</p>
+            <p>The intent of these notes is to guide students through Statistics in the same way that a research project is typically done. They will form their question, collect data and analysis potential bias, test questions forming hypothesis tests, and then follow up with a confidence interval of potential values. This gives students a way to see what's coming up next.</p>
 
-            <section number="no"><title>HTML and PDF</title>
+<p> Suggested activities are scattered throughout the text to offer students an opprotunity to experience stats first hands. I strongly recommend trying at least one of these activities or designing your own to custom fit your course. By being involved, trying out new things, and creating their own understanding of Statistics through cooperative activities, students form a lasting knowledge of problem solving and its applications to Statistics and the world around them.</p>
+
+            <!-- <section number="no"><title>HTML and PDF</title>
             <p>This manual has been released with several synchronous versions that offer different features. The essential content of each version is the same as for all others.</p>
             <ul>
                 <li><p>A web version is available at <url href="http://spot.pcc.edu/math/clm"/>. Whenever there is an internet connection, and you do not prefer to have a print copy, this version is most recommended. The web version offers full walk-through solutions to supplemental problems. More importantly, it offers interactive elements and easier navigation than any of the PDFs below could offer.</p></li>
@@ -60,7 +60,7 @@
             </section>
 
             <section number="no"><title>Copying Content</title>
-            <p>The graphs and other images that appear in this manual may be copied in various file formats using the HTML version. Below each image are links to <c>.png</c>, <c>.eps</c>, <c>.svg</c>, <c>.pdf</c>, and <c>.tex</c> files that contain the image. The <c>.eps</c>, <c>.svg</c>, and <c>.pdf</c> files will not lose sharpness no matter how much you zoom, but typically are large files. Some of these formats may not be recognized by applications that you use. The <c>.png</c> file are of fairly high resolution, but will eventually lose sharpness if you zoom in too much. The <c>.tex</c> files contain code that can be inserted into other <c>.tex</c> documents to re-create the images.</p> 
+            <p>The graphs and other images that appear in this text may be copied in various file formats using the HTML version. Below each image are links to <c>.png</c>, <c>.eps</c>, <c>.svg</c>, <c>.pdf</c>, and <c>.tex</c> files that contain the image. The <c>.eps</c>, <c>.svg</c>, and <c>.pdf</c> files will not lose sharpness no matter how much you zoom, but typically are large files. Some of these formats may not be recognized by applications that you use. The <c>.png</c> file are of fairly high resolution, but will eventually lose sharpness if you zoom in too much. The <c>.tex</c> files contain code that can be inserted into other <c>.tex</c> documents to re-create the images.</p> 
 
             <p>Similarly, tables can be copied from the HTML version and pasted into applications like MS Word. However, mathematical content within tables will not always paste correctly without a little extra effort as described below.</p>
 
@@ -79,7 +79,7 @@
 
             <section number="no"><title>Tablets and Smartphones</title>
             <p>MathBook XML documents like this lab manual are <q>mobile-friendly</q>. The display adapts to whatever screen size or window size you are using. A math teacher will always recommend that you do not study from the small screen on a phone, but if it's necessary, this manual gives you that option.</p>
-            </section>
-        </preface> -->
+            </section>-->
+        </preface>
 
 </frontmatter>

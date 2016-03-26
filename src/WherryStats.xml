@@ -19,9 +19,17 @@
 
         <xi:include href="./frontmatter.xml" />
         <xi:include href="./data.xml" />
-        <!--  <xi:include href="./reptiles.xml" />  -->
-
-
+       <!-- <xi:include href="./probability.xml" />
+	<xi:include href="./random-variables.xml" />
+	<xi:include href="./normal-distribution.xml" />
+	<xi:include href="./discrete-distributions.xml" />
+	<xi:include href="./hypothesis-tests-for-proportions.xml" />
+	<xi:include href="./confidence-intervals-for-proportions.xml" />
+	<xi:include href="./quantitative-data.xml" />
+	<xi:include href="./central-limit-theorem.xml" />
+	<xi:include href="./linear-regression.xml" />
+	<xi:include href="./formula-sheet.xml" />
+	<xi:include href="./exercises.xml" /> -->
    </book>
 
 </mathbook>

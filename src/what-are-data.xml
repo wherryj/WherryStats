@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of the book -->
+<!--                               -->
+<!-- Calculus I Lab Manual         -->
+<!--                               -->
+<!-- Steve Simonds (author)        -->
+<!-- Alex Jordan (editor)          -->
+
+<section xml:id="section-what-are-data">
+    <title>Data: From Start to End</title>
+
+
+
+    <subsection>
+        <title>The General Process</title>
+
+            <p>Data are raw pieces of information. This could be anything from the height of an individual to the number of sand grains on a beach. While it is certainly possible to collect data without a goal in mind, we often collect data to describe or answer a question about a trait of a population. Below is one approach<mdash/>the approach we will take<mdash/>to examining populations</p>
+
+<ol>
+	<li><p>Determining the population and sample of interest. This includes the group we want to study, the feature of the group worth examining, and the subgroup that we will sample to collect the data. </p></li>
+	<li><p>Figure out how the data will be collected. Will data be collected via a survey? An experiment? Something different? You have a lot of options here, but be mindful of any unintended biases. Error in life is unavoidable, but it sure is nice to know what type of error we are dealing with.</p></li>
+	<li><p>State the question of interest. I know, I know. This seems to be contradicting the quote from earlier. Trust me, it's not. Sir Arthur Conan Doyle is suggesting that it is foolish to try to state a conclusion before looking at data. This step simple adds to that by suggesting that it can also be foolish to collect data before knowing the question of interest. If you state the question after collecting the data, you are more likely to create misleading results. Think of it this way: You wouldn't be impressed if a magician told you your card <strong>after</strong> looking at it.</p></li>
+	<li><p>Collect the data. It's possible that there are snags along the way. If so, we could always redo steps 1 through 3. Stats is as much art as it is science.</p></li>
+	<li><p>Analyze the data. The fun part! We can use mathematics to examine the rarity of data in relationship to our claim. This can help answer our original question.</p></li>
+	<li><p>Summarize the results. This is the step where we create our graphs and tables. If we saw something interesting along the way, we can start the whole process over again!</p></li>
+</ol>
+
+    </subsection>
+</section>
+
